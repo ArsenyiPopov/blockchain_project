@@ -1,0 +1,588 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+html {
+    box-sizing: border-box;
+      }
+      *, *::before, *::after {
+    box-sizing: inherit;
+      }
+ul {
+    margin-top: 0;
+    margin-bottom: 0rem !important;
+}
+body {
+    font-family: 'Roboto Medium', sans-serif;
+}
+ /* Header styles start */
+
+ .header {
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;    
+    transition: .2s linear;
+    z-index: 999;*/
+    background-color: #100f12;
+}
+.container-fluid {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 0px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.header__container {
+    height: 103px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 97px;
+    padding-right: 157px;
+}
+.header__nav {
+    /*width: 548px;*/
+    
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+color: #EEEEEE;
+}
+.header__link:hover, .header__link:focus, .header__link:active {
+    color: #7CE0EF;
+    text-decoration: none;
+}
+.header__item {
+ margin-right: 48px;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header__logo {
+    
+    margin-left: -200px;
+}
+
+.header__menu_right {
+   
+}
+.header__menu_right_list{
+    width: 290px;
+    height: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__btn {
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 22px;
+    border-radius: 16px;
+    text-align: center;
+    padding: 12px 75px;
+    background: linear-gradient(93.78deg, #3264F8 0%, #F02EE5 100%);
+    color: #E8E8E8;
+    text-decoration: none;
+}
+
+.header__btn:hover {
+    text-decoration: none;
+    background: linear-gradient(93.78deg, #3264F8 0%, #F02EE5 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+color: transparent;
+
+
+}
+
+.telegram_icon__link {
+ width: 24px;
+ height: 21px;
+ color: #EDEDED;
+}
+
+.telegram_icon__link:hover, .header__link:focus, .header__link:active {
+    color: #7CE0EF;
+    text-decoration: none;
+}
+.line-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -21px;
+  }
+  
+  .line-right {
+    
+    width: 932px;
+    height: 2px;
+    background: linear-gradient(90deg, #CBD6FB 0%, #000000 100%);
+    border-radius: 20px;
+    right: -1px;
+  }
+  .star-pic{
+    
+    width: auto;
+    height: auto;
+  }
+  .line-left {
+    
+width: 932px;
+height: 2px;
+left: -1px;
+background: linear-gradient(270deg, #FEFEFE 0%, #070D20 100%);
+border-radius: 20px;
+  }
+  
+  /* Header styles end */
+
+  /* intro styles start */
+
+.intro {
+    height: 687px;
+    background-color: #100f12;
+    position: relative;
+}
+
+.intro_container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
+.intro__block {
+    width: 485px;
+    padding-top: 173px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.intro__title {
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 80px;
+text-transform: uppercase;
+color: #EEEEEE;
+margin-bottom: 12px;
+
+}
+
+.intro__subtitle {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+color: #717176;
+margin-bottom: 48px;
+
+}
+
+.intro__btn {
+    padding: 16px 16px;
+}
+.intro__vector-circle {
+position: absolute;
+left: 46.82%;
+right: 49.87%;
+top: 101px;
+bottom: 92.6%;
+}
+
+.intro__vector-rocket {
+position: absolute;
+left: 50.62%;
+right: 38.74%;
+top: 295px;
+bottom: 79.94%;
+}
+
+.intro__vector-star-bottom {
+    position: absolute;
+left: 66.98%;
+right: 29.17%;
+top: 570px;
+bottom: 78.98%;
+}
+.intro__vector-star-top {
+position: absolute;
+left: 79.22%;
+right: 15.63%;
+top: 4.44%;
+bottom: 92.76%;
+}
+.intro__vector-blockchain {
+    position: absolute;
+width: 707px;
+height: 707px;
+left: 55%;
+top: -21px;
+}
+.intro__vector-mouse {
+    position: absolute;
+left: 49.38%;
+right: 49.38%;
+top: 646px;
+bottom: 78.62%;
+}
+
+
+  /* intro styles end */
+
+
+  /* our_expertise start */
+
+  .our_expertise {
+    position: relative;
+    height: auto;
+    background: url(../img/our_expertise_bg.png) no-repeat center;
+    background-size: cover;
+    
+  }
+  .our_expertise__titel {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 40px;
+    color: #100F12;
+    text-align: center;
+    padding-top: 38px;
+    margin-bottom: 65px;
+  }
+  .our_expertise__container_table {
+    
+  }
+
+.our_expertise__icon {
+margin-bottom: 24px;
+}  
+
+.our_expertise__subtitle {
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 22px;
+color: #EC8132;
+margin-bottom: 16px;
+
+}
+
+.our_expertise__description {
+    width: 322px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+color: #717176;
+}
+
+.our_expertise__container__img-almaz {
+    position: absolute;
+left: 4.22%;
+right: 86.13%;
+bottom: 69.85%;
+top: 7.00%;
+}
+
+
+
+
+  /* our_expertise end */
+
+
+  /* How we proceed start */
+
+.how_we_proceed {
+  position: relative;
+    background-color: #100f12;
+}
+
+
+  .ticker {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .ticker__wrapper {
+    display: flex;
+    height: 90px;
+    border-bottom: #4A494E;
+    border-style: solid;
+  }
+  
+  .ticker__item {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 40px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 24px 30px;
+    animation: ticker 5s linear infinite;
+    -webkit-text-stroke: 1px #EEEEEE;
+  }
+  
+  @keyframes ticker {
+    0% {
+      transform: translateZ(0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+.how_we_proceed__subtitle {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+color: #717176;
+text-align: center;
+margin-top: 12px;
+}
+
+.how_we_proceed__container_table_item {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+        margin-bottom: 48px;
+    
+
+}
+
+.how_we_proceed__title_card {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    color: #EEEEEE
+    
+
+}
+.card_number {
+  margin-bottom: 20px;
+}
+.card_descrip {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+color: #717176;
+}
+
+.indicator_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+.indicator_circle {
+  position: absolute;
+      padding-top: 6px;
+}
+
+.how_we_proceed__btn_wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 48px;
+  
+}
+
+.how_we_proceed__btn {
+  
+
+  }
+.how_we_proceed__vector_img {
+  position: absolute;
+left: 78.88%;
+right: 9.21%;
+top: 49.93%;
+bottom: 44.34%;
+}  
+
+/* How we proceed end*/
+
+
+
+
+/* Why choose us? start*/
+
+
+.why_choose_us {
+  position: relative;
+  background: url(../img/our_expertise_bg.png) no-repeat center;
+  background-size: cover;
+  
+}
+.owhy_choose_us__img-graffiti {
+  position: absolute;
+  left: 2.81%;
+  right: 88.93%;
+  top: 8.11%;
+  bottom: 34.55%;
+
+
+}
+
+
+.why_choose_us__container {
+  max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
+.why_choose_us__container_boodstrap {
+  padding-top: 70px;
+  padding-bottom: 48px;
+}
+
+.why_choose_us__titel {
+  font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 72px;
+color: #100F12;
+margin: 0%;
+
+}
+.why_choose_us__descr {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+color: #717176;
+margin-bottom: 40px;
+}
+
+.why_choose_us__subtitle {
+  font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 22px;
+color: #100F12;
+margin-bottom: 0;
+margin-left: 12px;
+}
+.why_choose_us__description {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+color: #717176;
+margin-top: 24px;
+}
+.wrapper__subtitel {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+  /* Why choose us? end*/
+
+
+
+   /* Technology stack start*/
+
+   .technology_stack {
+    height: 680px;
+    position: relative;
+      background-color: #100f12;
+  }
+  .technology_stack__ticker {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .technology_stack__ticker__wrapper {
+    display: flex;
+    border-bottom: #4A494E;
+    border-style: solid;
+  }
+  
+  .technology_stack__ticker__item {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 40px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 24px 30px;
+    animation: technology_stack__ticker 5s linear infinite;
+    -webkit-text-stroke: 1px #EEEEEE;
+  }
+  
+  @keyframes technology_stack__ticker {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+  }
+
+  .technology_stack__subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #717176;
+    text-align: center;
+    margin-top: 30px;
+  }
+.technology_stack__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: ;
+  
+  
+}
+
+.img_logo {
+  margin-right: 100px;
+}
+.img_logo:last-child {
+  margin-right: 0;
+}
+  
+
+
+
+
+
+
+
+
+
+   /* Technology stack end*/
