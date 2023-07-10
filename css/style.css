@@ -71,7 +71,12 @@ color: #EEEEEE;
 
 .header__logo {
     
-    margin-left: -200px;
+    margin-left: -150px;
+}
+
+.header__logo-pic {
+  max-width: 208px;
+  height: auto;
 }
 
 .header__menu_right {
