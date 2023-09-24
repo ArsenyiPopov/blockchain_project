@@ -26,6 +26,7 @@ body {
 }
 .container-fluid {
     max-width: 1920px;
+    position: relative;
     margin: 0 auto;
     padding: 0 0px;
     padding-right: 0px !important;
@@ -609,6 +610,9 @@ form input {
   display: flex;
   align-items: center;
   background-color: #EEEEEE;
+}
+.input_castom {
+  opacity: 0.5;
 }
 
 form input.error{
