@@ -706,3 +706,50 @@ color: #717176;
 }
 
    /* Technology stack end*/
+
+   @media screen and (max-width: 1590px) {
+    .intro__vector-blockchain {
+      width: 550px;
+      left: 60%;
+    }
+    .our_expertise__container__img-almaz {
+      width: 200px;
+      top: 0.50%;
+      left: 1%;
+      opacity: 0.5;
+    }
+    .owhy_choose_us__img-graffiti {
+      width: 150px;
+      opacity: 0.5;
+    }
+   }
+   @media screen and (max-width: 1132px) {
+    .intro__vector-blockchain {
+      width: 400px;
+    }
+    .how_we_proceed__vector_img {
+      width: 150px;
+    }
+    .owhy_choose_us__img-graffiti {
+      width: 100px;
+    }
+    .our_expertise__container__img-almaz {
+      position: absolute;
+      width: 150px;
+      top: 1.00%;
+  }
+   }
+   @media screen and (max-width: 789px) {
+    .intro__vector-blockchain {
+      width: 300px;
+    }
+    .how_we_proceed__vector_img {
+      width: 100px;
+    }
+    .owhy_choose_us__img-graffiti {
+      width: 100px;
+    }
+    .our_expertise__container__img-almaz {
+      
+  }
+   }
